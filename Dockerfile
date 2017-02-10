@@ -18,4 +18,4 @@ COPY . $HOME/poc
 RUN chown -R app:app $HOME/*
 USER app
 
-CMD ["node", "index.js"]
+#CMD ["node", "index.js"]
